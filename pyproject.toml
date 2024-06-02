@@ -1,0 +1,17 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "repro-panel-param-vscode-notebook-pn-template-no-reactivity"
+version = "0.1.0"
+description = ""
+authors = ["Evgeny Arshinov <earshinov@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+panel = "^1.4.4"
+param = "^2.1.0"
+ipykernel = "^6.29.4"
+jupyter-bokeh = "^4.0.4"
